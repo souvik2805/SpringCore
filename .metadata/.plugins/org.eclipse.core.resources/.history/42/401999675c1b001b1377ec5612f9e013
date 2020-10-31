@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+<bean id="student_1" class="com.asl.di.Student">
+ <property name="studentName" value="Souvikk Biswas" />
+ <property name="id" value="1" />
+ <!-- 
+ Spring expect that there should be setter Method for property studentName . 
+ So pass setStudentName("Souvikk Biswas")
+ -->
+</bean>
+
+<bean id="student_2" class="com.asl.di.Student">
+	<property name="studentName" value="Rohan Kisku" />
+	<property name="id" value="2" />
+</bean>
+
+<!-- Constructor Injetion -->
+<bean id="human_1" class="com.asl.di_constructor.Person">
+	<constructor-arg name="name" value="Rohan Kisku" />
+	<constructor-arg name="age" value="20" type=Integer" />
+</bean>
+
+   
+   
+</beans>
+   

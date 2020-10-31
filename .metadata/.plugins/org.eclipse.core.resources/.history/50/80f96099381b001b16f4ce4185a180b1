@@ -1,0 +1,17 @@
+package com.asl.network;
+
+public class Airtel implements sim {
+
+	@Override
+	public void calling() {
+		System.out.println("Calling Using Airtel Sim");
+
+	}
+
+	@Override
+	public void data() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

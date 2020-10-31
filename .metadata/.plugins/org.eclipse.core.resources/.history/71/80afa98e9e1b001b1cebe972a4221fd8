@@ -1,0 +1,27 @@
+package com.asl.autowired;
+
+public class Human {
+
+	private Heart heart;
+	private int id;
+
+	// Constructor for beans.xml method 4
+	public Human(Heart heart , id) {
+		this.heart = heart;
+		this.id = id;
+	}
+
+	public void setHeart(Heart heart) {
+		this.heart = heart;
+	}
+
+	public void startPumping() {
+		if (heart != null) {
+			heart.pump();
+		} else {
+          System.out.println("You are dead...");
+		}
+
+	}
+
+}

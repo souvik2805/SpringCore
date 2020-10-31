@@ -1,0 +1,6 @@
+package com.asl.di;
+
+public class Student {
+
+	String studentName;
+}

@@ -1,0 +1,5 @@
+package com.asl.autowired;
+
+public class Heart {
+
+}

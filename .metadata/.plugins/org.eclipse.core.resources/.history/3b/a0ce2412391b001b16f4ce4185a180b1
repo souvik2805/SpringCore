@@ -1,0 +1,10 @@
+package com.asl.network;
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		Sim mysim = new Sim();
+		mysim.calling();
+		mysim.data();
+	}
+}

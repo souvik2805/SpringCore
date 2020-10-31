@@ -1,0 +1,16 @@
+package com.asl.di;
+
+public class Student {
+
+	String studentName;
+	Integer id;
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package com.asl.network;
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		sim mysim = new Airtel();
+		mysim.calling();
+		mysim.data();
+	}
+}

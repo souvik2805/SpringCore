@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+               
+     <context:annotation-config/>
+ 
+
+
+ 
+<!-- Herer fist check by type which is same "Heart" then by name which do't match so failed -->
+<!-- 
+<bean id="humanHeart" class="com.asl.autowired.Heart"></bean>
+<bean id="dogHeart" class="com.asl.autowired.Heart"></bean>
+ -->
+ 
+ <!-- Herer fist check by type which is same "Heart" then by name(id) which is match -->
+ <!-- 
+ <bean id="heart" class="com.asl.autowired.Heart"></bean>
+ -->
+ 
+ <!-- Tell Autowire expliectly which id or name you using  by Qualifier annotaion -->
+ <bean id="humanHeart" class="com.asl.autowired.Heart"></bean>
+ 
+
+
+<bean id="human" class="com.asl.autowired.Human" ></bean>    
+
+   
+   
+</beans>

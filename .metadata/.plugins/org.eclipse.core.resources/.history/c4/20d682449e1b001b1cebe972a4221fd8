@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- METHOD : 1 -->
+<!-- 
+<bean id="heart" class="com.asl.autowired.Heart"></bean>
+<bean id="human" class="com.asl.autowired.Human">
+ <property name="heart"  ref="heart" />
+</bean>
+ -->
+ 
+ <!-- The bean id and class ref. name should be same when autowire is byName -->
+ <!-- METHOD: 2 -->
+ <!--
+ <bean id="heart" class="com.asl.autowired.Heart"></bean>
+ <bean id="human" class="com.asl.autowired.Human" autowire="byName">
+ </bean>
+  -->
+  
+ 
+ <!-- METHOD: 3 -->
+ <!-- 
+<bean id="heartObjectValue" class="com.asl.autowired.Heart"></bean>
+<bean id="human" class="com.asl.autowired.Human" autowire="byType">
+</bean>    
+ -->
+ 
+ 
+ <!-- METHOD: 3 -->
+ <!-- 
+<bean id="heartObjectValue" class="com.asl.autowired.Heart"></bean>
+<bean id="human" class="com.asl.autowired.Human" autowire="byType">
+</bean>    
+ -->
+   
+   
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Dependency-Injection&apos;&#x0D;&#x0A;- Original project: &apos;Dependency-Injection&apos;&#x0D;&#x0A;- Original element: &apos;Dependency-Injection/src/main/java/com.asl.network&apos;" description="Delete element" element1="/src\/main\/java&lt;com.asl.network" element2="/src\/main\/java&lt;com.asl" element3="/src\/main\/java&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1604131551273" subPackages="false" version="1.0"/>
+</session>
