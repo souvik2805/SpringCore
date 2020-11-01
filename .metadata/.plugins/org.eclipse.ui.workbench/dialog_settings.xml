@@ -19,4 +19,11 @@
 			<item value="org.springsource.ide.eclipse.gradle.wizards.new.category"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.buildship.ui.wizards.project.import" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.buildship.ui.importwizards"/>
+			<item value="org.springsource.ide.eclipse.gradle.wizards.import.category"/>
+		</list>
+	</section>
 </section>
